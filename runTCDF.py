@@ -338,3 +338,6 @@ else:
     for dataset in args.data:
         datafiles[dataset]=""
     main(datafiles, evaluation=False)
+
+
+# python runTCDF.py --data /Users/shawnxys/Development/Data/preprocessed_causal_sports_data_by_games/17071/features_shots_rewards.csv --plot --kernel_size 2 --dilation_coefficient 2 --significance 1
